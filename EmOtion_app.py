@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import pickle
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 with open('tokenizer_emotion.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
