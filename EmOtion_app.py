@@ -54,7 +54,7 @@ if st.button("Generate Poem"):
     st.write(generated_poem_3)
 
     last_word_generated_poem_3 = " ".join(generated_poem_3.split()[-2:])
-    st.write("Puisi yang dihasilkan (Baris Ketiga):")
+    st.write("Puisi yang dihasilkan (Baris Keempat):")
     seed_text_input_4 = last_word_generated_poem_3
     generated_poem_4 = generate_poem(seed_text_input_4, next_words)
     st.write(generated_poem_4)
