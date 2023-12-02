@@ -30,7 +30,7 @@ st.title("EmOtion")
 
 st.subheader("EmOtion : Poem Generator yang dapat membuat 1 bait puisi (1 bait puisi = 4 baris puisi)")
 
-st.write("*Note : English Only!")
+st.write("*Note : Input is in English only!")
 
 seed_text_input = st.text_input("Masukkan kata:")
 
