@@ -28,7 +28,7 @@ def generate_poem(seed_text, next_words):
 
 st.title("EmOtion")
 
-st.subheader("EmOtion : Poem Generator yang dapat membuat 1 bait puisi (1 bait = 1 baris)")
+st.subheader("EmOtion : Poem Generator yang dapat membuat 1 bait puisi (1 bait puisi = 4 baris puisi)")
 
 st.write("*Note : English Only!")
 
